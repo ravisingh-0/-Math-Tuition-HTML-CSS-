@@ -177,6 +177,7 @@ body{
 }
 #footer{
     /* height: 50px; */
+    background: linear-gradient(#292727, #0080ff);
     background-color: #0080ff;
     padding: 6px 10px;
     margin-top: 6px;
@@ -184,4 +185,18 @@ body{
 #footer p{
     text-align: center;
     color:white;
+}
+.card{
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,.2), 0 6px 20px 0 rgba(0,0,0,.19);
+}
+.card .carhead{
+    background-color: #0080ff;
+    padding: 10px;
+}
+.card .carhead h3{
+    text-align: center;
+    color: white;
 }
